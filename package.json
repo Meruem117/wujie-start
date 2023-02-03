@@ -1,0 +1,23 @@
+{
+  "name": "wujie-start",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lerna run start --parallel",
+    "clean": "rimraf node_modules **/*/node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meruem117/wujie-start.git"
+  },
+  "author": "Meruem117",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Meruem117/wujie-start/issues"
+  },
+  "homepage": "https://github.com/Meruem117/wujie-start#readme",
+  "devDependencies": {
+    "@lerna-lite/cli": "^1.14.2",
+    "@lerna-lite/run": "^1.14.2",
+    "rimraf": "^4.1.2"
+  }
+}
